@@ -22,6 +22,7 @@ import Dashboard from "./pages/DashboardPage";
 import CrudPage from "./pages/CrudPage";
 import ChangePasswordPage from "./pages/ChangePasswordPage";
 import Chat from "./pages/Chat";
+import Invoice from "./pages/Invoice";
 
 /*
     colors: {
@@ -63,6 +64,7 @@ const Application = () => {
           <Route path="/test" element={<TestPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/Chat" element={<Chat />} />
+          <Route path="/invoice" element={<Invoice />} />
 
           <Route path="/*" element={<>not found</>} />
         </Routes>
